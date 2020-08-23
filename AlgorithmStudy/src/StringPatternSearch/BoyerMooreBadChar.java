@@ -9,10 +9,10 @@ import java.util.HashMap;
  * @author jessica.do
  *
  */
-public class BoyerMoore {
+public class BoyerMooreBadChar {
 	private HashMap<Character, Integer> badMatchTable;
 	
-	public BoyerMoore() {
+	public BoyerMooreBadChar() {
 		this.badMatchTable = new HashMap<Character, Integer>();
 	}
 
