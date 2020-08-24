@@ -21,7 +21,7 @@ public class Test {
 		System.out.println("[KMP]Total number of matched string is " + resultKMP.size());
 		
 		System.out.println();
-		BoyerMoore bm = new BoyerMoore();
+		BoyerMooreBadChar bm = new BoyerMooreBadChar();
 		System.out.println("[BoyerMoore] START ----------------------------------------");
 		ArrayList<Integer> resultBM = bm.findPattern(text, pattern);
 		System.out.println("[BoyerMoore]Total number of matched string is " + resultBM.size());	
